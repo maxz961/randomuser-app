@@ -1,0 +1,26 @@
+.info {
+    height: calc(100vh - 128px);
+}
+
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+
+    &__img {
+        width: 100%;
+    }
+}
+
+.left {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+}
+
+.right {
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+
